@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Electron App</title>
+        <!-- https://electronjs.org/docs/tutorial/security#csp-meta-tag -->
+        <meta http-equiv="Content-Security-Policy" content="script-src 'self';" />
+    </head>
+<body>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            margin: 10px 10px;
+        }
+
+        html, body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        h1 {
+            margin-bottom: 10px;
+        }
+
+        .btn {
+            border-radius: 10px;
+            padding: 5px 10px;
+            height: auto;
+            width: auto;
+            background-color: rgb(84, 84, 190);
+            cursor: pointer; 
+        }
+
+        .version {
+            width: 100%;
+            height: 600px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        main {
+            width: 100%;
+            height: 700px;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: row;
+        }
+
+        .features {
+            width: 50px;
+            height: 80px;
+            background: aquamarine;
+        }
+    </style>
+
+    <h1>Electron App</h1>
+    <div class="btn">Hello world</div>
+    <div class="version">
+        <p>Wassup bro!</p>
+    </div>
+
+
+    <main>
+        <div class="features"></div>
+        <div class="features"></div>
+        <div class="features"></div>
+        <div class="features"></div>
+        <div class="features"></div>
+    </main>
+</body>
+</html>
